@@ -1,0 +1,1208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    background-image: url(../assets/img/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 80%;
+
+}
+
+.section-header   {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-header div h1{
+    padding: 30px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 3px 1px brown;
+}
+
+.navbar{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    margin-top: 110px;
+    
+}
+.navbar  li a{
+    padding: 7px;
+    border: 2px #62ff00 solid;
+    background-color: #006eff;
+    text-decoration: none;
+    color: #62ff00;
+    border-radius: 10px;
+    
+}
+
+.navbar li a:hover{
+    background-color: #62ff00;
+    color: #006eff;
+    border: 2px #a52a2a solid;
+}
+
+/* footer*/
+
+.section-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+}
+
+.divfooter1{
+    background-color: #62ff00;
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    color: #006eff;
+}
+
+.divfooter2{
+    background-color: #006eff;
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    color: #4dff00;
+}
+
+/*PAGINA INICIO*/
+
+.main1 {
+    background-image: url(../assets/img/complejo.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+
+
+.contenido1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    padding-top: 200px;
+    
+
+}
+.contenido1 div{
+
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px 10px;
+    border: 1px black solid;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+   
+    
+    background-image: url(../assets/img/pasto.jpg);
+
+}
+
+
+.contenido1 h3{
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 2px 2px white;
+    font-size: 30px;
+}
+
+
+.div1 img {
+    width: 380px;
+    height: 250px;
+    justify-content: center;
+    }
+
+.div1 img:hover {
+
+filter: grayscale();
+        }
+
+.div1-2 img {
+    width: 380px;
+    height: 250px;
+    justify-content: center;
+}
+.div1-2 img:hover {
+    filter: grayscale();
+            }
+
+.div1-3 img {
+    width: 380px;
+    height: 250px;
+    justify-content: center;
+}
+.div1-3 img:hover {
+    filter: grayscale();
+            }
+
+.div1-4 img {
+    width: 380px;
+    height: 250px;
+    justify-content: center;
+    }
+.div1-4 img:hover {
+    filter: grayscale();
+                }
+
+/*pagina club*/
+
+.prueba {
+    display: grid;
+    grid-template-columns: repeat(3 100%);
+    grid-template-rows: repeat(3 100%);
+    grid-template-areas: 
+    "item1 item1 item1 item1"
+    "item2 item2 item3 item3"
+    ;
+    height: 900px;
+}
+
+.item1{
+    grid-area: item1;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    height: 300px;
+    background-image: url(../assets/img/el\ club\ portada.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.item2 {
+    grid-area: item2;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    height: 400px;
+    width: 200PX;
+    padding: 30px;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: #006eff;
+}
+.item2 p{
+    text-align: justify;
+    width: 700px;
+    margin-top: 10px;
+
+}
+.item2 h3{
+    text-align: center;
+    padding-left: 300px;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+
+.item3 {
+    grid-area: item3;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.item3 {
+    display: grid;
+    grid-template-columns: repeat(3 100%);
+    grid-template-rows: repeat(6 100%);
+    grid-template-areas: 
+    "d1 d1 d1 d2 d3 d3"
+    "d1 d1 d1 d2 d3 d3"
+    "d4 d4 d4 d5 d5 d5"
+    
+}
+.item3 div{
+
+    margin: 5px;
+
+
+
+}
+.d1{
+    grid-area: d1;
+    background-color: #006eff;
+    background-image: url(../assets/img/elclub4.jpg);
+    background-size: 100% 100%;
+}
+
+.d2{
+    grid-area: d2;
+    background-color: #1effb4;
+    background-image: url(../assets/img/elclub2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+
+.d3{
+    grid-area: d3;
+    background-color: #abd816;
+    background-image: url(../assets/img/elclub3.jpg);
+    background-size: 100% 100%;
+}
+
+.d4{
+    grid-area: d4;
+    background-color: #d614d9d2;
+    background-image: url(../assets/img/elclun5.jpg);
+    background-size: 100% 100%;
+}
+
+.d5{
+    grid-area: d5;
+    background-color: #ff0a0a;
+    background-image: url(../assets/img/elclub1.jpg);
+    background-size: 100% 100%;
+}
+ /*aprende*/
+
+.prueba3{
+    height: 1600px;
+
+}
+ .prueba3 div {
+    height: 300px;
+    margin-bottom: 10px;
+
+    
+ }
+
+ .it3 {
+    display: grid;
+    grid-template-rows: repeat(2 100%);
+    grid-template-columns: repeat(5 100%);
+    grid-template-areas: 
+    "it3-1 it3-1"
+    "it3-2 it3-3"
+    "it3-4 it3-5"
+    "it3-6 it3-7"
+    "it3-8 it3-9"
+    ;
+ }
+
+ .it3-1{
+    grid-area: it3-1;
+    background-image: url(../assets/img/como\ jugar\ portada.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+ }
+
+ .it3-2{
+    grid-area: it3-2;
+    color: #006eff;
+    text-align: justify;
+    
+ }
+ .it3-2 p{
+    width: 750px;
+    margin: 10px;
+    
+ }
+
+ .it3-3{
+    grid-area: it3-3;
+    background-image: url(../assets/img/como\ se\ juega.jpg);
+    background-size: 80% 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-right: 700px;
+    align-items: center;
+
+    
+ }
+
+ .it3-4{
+    grid-area: it3-4;
+    background-image: url(../assets/img/palas.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 80%;
+    background-position: center;
+    background-position: center;
+    
+ }
+
+ .it3-5{
+    text-align: justify;
+    align-content: center;
+ }
+
+ .it3-5 h3{
+ 
+    text-align: center;
+    margin: 20px;
+    color: #006eff;
+    font-size: 30px;
+ }
+ .it3-5 p{
+ 
+    text-align: center;
+    margin: 20px;
+    color: #006eff;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+ .it3-6{
+    grid-area: it3-6;
+    text-align: justify;
+    align-content: center;
+ }
+ .it3-6 h3{
+ 
+    text-align: center;
+    margin: 20px;
+    color: #006eff;
+    font-size: 30px;
+ }
+ .it3-6 p{
+ 
+    text-align: center;
+    margin: 20px;
+    color: #006eff;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+ .it3-7{
+    grid-area: it3-7;
+    background-image: url(../assets/img/zapatillas\ de\ padel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 90%;
+ }
+
+ .it3-8{
+    grid-area: it3-8;
+    background-image: url(../assets/img/pelotas\ de\ padel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+ }
+
+ .it3-9{
+    grid-area: it3-9;
+    align-content: center;
+ }
+
+ .it3-9 h3{
+ 
+    text-align: center;
+    margin: 20px;
+    color: #006eff;
+    font-size: 30px;
+ }
+ .it3-9 p{
+ 
+    text-align: center;
+    margin: 20px;
+    color: #006eff;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+
+/*PAGINA DE SERVICIOS*/
+
+.prueba2{
+    display: grid;
+    grid-template-columns: repeat(3 100%);
+    grid-template-rows: repeat(3 100%);
+    grid-template-areas: 
+    "p2-1 p2-1"
+    "p2-2 p2-3"
+    ;
+    height: 700px;
+}
+
+
+.p2-1{
+    background-color: #006eff;
+    grid-area: p2-1;
+    background-image: url(../assets/img/servicios\ portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+
+}
+
+.p2-2{
+    grid-area: p2-2;
+    width: 700px;
+ 
+}
+.p2-2 h3{
+    margin-top: 30px;
+    text-align: center;
+    color: #006eff;
+    font-size: 30px;
+
+}
+
+.p2-2 p{
+    text-align: justify;
+    margin: 20px;
+    color: #006eff;
+    font-size: 20px;
+   
+}
+
+.p2-3 h3{
+    margin-top: 30px;
+    grid-area: p2-3;
+    width: 700px;
+    text-align: justify;
+    color: #62ff00;
+    text-shadow: 2px 2px 2px rgb(34, 56, 255);
+    font-size: 30px;
+    
+  
+}
+
+
+/*contacto*/
+
+.prueba4{
+    display: grid;
+    grid-template-columns: repeat(2 100%);
+    grid-template-rows: repeat(2 100%);
+    grid-template-areas: 
+    "dv4-1 dv4-1"
+    "dv4-2 dv4-3"
+    ;
+    height: 1000px;
+    
+}
+
+.dv4-1{
+    grid-area: dv4-1;
+}
+
+.dv4-2{
+    
+    grid-area: dv4-2;
+    height: 300px;
+    width: 80%;
+    align-content: center;
+    margin-left: 200px;
+}
+
+.dv4-2 h3{
+    text-align: center;
+    font-size: 40px;
+    color: #62ff00;
+    text-shadow: 0 0 10px black;
+    font-weight: 600;
+}
+
+.dv4-2 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #006eff;
+    font-weight: 600;
+}
+
+.dv4-3{
+    grid-area: dv4-3;
+    height: 300px;
+    width:100%
+}
+
+/*formulario*/
+
+.dv4-3 {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 20px 45px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.contacto h2{
+    color: #006eff;
+    font-size: 25px;
+}
+
+.contacto label{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.contacto input, textarea {
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #e6ffd6;
+    border: 2px blue solid;
+}
+
+.btn {
+    width: 100px;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: #1effb4;
+}
+
+
+/*@media LAPTOP*/ 
+
+@media screen and (max-width:1024px){
+
+/*pagina inicio*/
+    .contenido1 div{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .contenido1 h3{
+        font-size: 25px;
+    }
+    
+    
+    .div1 img {
+        width: 280px;
+        height: 150px;
+        }
+    
+    .div1-2 img {
+        width: 280px;
+        height: 150px;
+    }
+
+    
+    .div1-3 img {
+        width: 280px;
+        height: 150px;
+    }
+    
+    .div1-4 img {
+        width: 280px;
+        height: 150px;
+        }
+}
+
+/*club*/
+
+
+.item1{
+    height: 270px;
+}
+
+.item2 p{
+    width: 550px;
+
+}
+.item2 h3{
+    padding-left: 250px;
+
+}
+
+
+.item3 {
+    height: 300px;
+    width: 90%;
+}
+
+/*PAGINA DE SERVICIOS*/
+
+.p2-2{
+    width: 700px;
+}
+.p2-2 h3{
+    margin-left: -120px;
+    font-size: 25px;
+}
+
+.p2-2 p{
+    font-size: 15px;
+    width: 500px;
+}
+
+.p2-3 h3{
+    width: 300px;
+    font-size: 16px;
+    margin-left: -100px;
+}
+
+/*aprende*/
+
+
+.prueba3{
+    height: 100%;
+}
+
+.prueba3{
+    height: 1600px;
+
+}
+ .prueba3 div {
+    height: 300px;
+    margin-bottom: 10px;
+ }
+
+ .it3-2 p{
+    width: 400px;
+    margin: 10px;
+    font-size: 12px;
+ }
+
+ .it3-3{
+    width: 70%;
+ }
+
+ .it3-5 h3{
+    font-size: 20px;
+    margin-left: -200px;
+ }
+ .it3-5 p{
+    width: 400px;
+    font-size: 13px;
+    }
+
+ .it3-6 h3{
+    
+    font-size: 20px;
+    margin-left: -100px;
+ }
+ .it3-6 p{
+ 
+    width: 400px;
+    font-size: 13px;
+    }
+
+ .it3-7{
+    margin-left: -200px;
+    background-size: 40% 70%;
+ }
+
+
+ .it3-9 h3{
+ 
+    margin-left: -200px;
+    font-size: 20px;
+ }
+ .it3-9 p{
+    width: 400px;
+    font-size: 13px;
+    }
+
+/*@media TABLET*/ 
+
+@media screen and (max-width:768px){
+
+    .prueba3{
+        height: 100%;
+    }
+
+    header {
+        height: 170px;
+    }
+    
+    .section-header   {
+        justify-content: center;
+    }
+    
+    .section-header div h1{
+        font-size: 40px;
+    }
+    
+    .navbar  li a{
+        padding:5px;
+    }
+    /*pagina inicio*/
+
+        .contenido1 div{
+            width: 250px;
+            height: 150px;
+        }
+        
+        .contenido1 h3{
+            font-size: 25px;
+        }
+        
+        
+        .div1 img {
+            width: 230px;
+            height: 100px;
+            }
+        
+        .div1-2 img {
+            width: 230px;
+            height: 100px;
+        }
+    
+        
+        .div1-3 img {
+            width: 230px;
+            height: 100px;
+        }
+        
+        .div1-4 img {
+            width: 230px;
+            height: 100px;
+            }
+    }
+
+/* club*/
+
+.item2 p{
+    width: 400px;
+    font-size: 15px;
+
+}
+.item2 h3{
+    padding-left: 200px;
+    font-size: 25px;
+
+}
+
+
+.item3 {
+    height: 250px;
+    width: 90%;
+    margin-top: 40px;
+}
+
+
+/*PAGINA DE SERVICIOS*/
+
+
+.p2-2{
+    width: 700px;
+ 
+}
+.p2-2 h3{
+    margin-left: -250px;
+    font-size: 25px;
+
+}
+
+.p2-2 p{
+    font-size: 15px;
+    width: 400px;
+}
+
+.p2-3 h3{
+    margin-left: -220px;
+    width: 300px;
+    font-size: 15px;
+}
+
+/*aprende*/
+
+.prueba3{
+    height: 1600px;
+
+}
+ .prueba3 div {
+    height: 300px;
+    margin-bottom: 10px;
+ }
+
+ .it3-2 p{
+    width: 400px;
+    margin: 10px;
+    font-size: 12px;
+ }
+
+ .it3-3{
+    width: 40%;
+ }
+
+ .it3-5 h3{
+    font-size: 20px;
+    margin-left: -450px;
+ }
+ .it3-5 p{
+    width: 300px;
+    font-size: 13px;
+    margin-left: -50px;
+    }
+
+ .it3-6 h3{
+    
+    font-size: 20px;
+    margin-left: -100px;
+ }
+ .it3-6 p{
+ 
+    width: 300px;
+    font-size: 13px;
+    }
+
+ .it3-7{
+    margin-left: -450px;
+    background-size: 25% 40%;
+ }
+
+
+ .it3-9 h3{
+ 
+    margin-left: -400px;
+    font-size: 20px;
+ }
+ .it3-9 p{
+    width: 300px;
+    font-size: 13px;
+    margin-left: -10px;
+    }
+
+/*@media MOBILE*/ 
+
+@media screen and (max-width:375px){
+
+    header {
+        padding: 0px;
+        height: 280px;  
+
+
+    }
+    
+    .section-header   {
+        flex-direction: column;
+        align-items: center;
+        height: 280px;
+        
+    
+    }
+    
+    .section-header div h1{
+        padding-top: 0px;
+        font-size: 30px;
+
+    }
+    
+    .navbar{
+
+        flex-direction: column;
+        gap: 15px;
+        margin-top: -90px;
+        align-items: center;
+        
+    }
+    .navbar  li a{
+        padding: 5px;     
+    }
+    
+    
+    /* footer*/
+    
+    .section-footer{
+        height: 100px;
+    }
+    
+    .divfooter1{
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    
+    .divfooter2{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+    
+    /*pagina inicio*/
+
+    
+    main {
+        height: 1000px;
+    
+    }
+    .contenido1{
+        padding-top: 300px;
+    }
+
+    .contenido1 div{
+        width: 150px;
+        height: 100px;
+    }
+        
+    .contenido1 h3{
+        font-size: 25px;
+    }
+        
+        
+    .div1 img {
+        width: 130px;
+        height: 60px;
+    }
+        
+    .div1-2 img {
+        width: 130px;
+        height: 60px;
+    }
+    
+        
+    .div1-3 img {
+        width: 130px;
+        height: 60px;
+    }
+        
+    .div1-4 img {
+            width: 130px;
+            height: 60px;
+    }
+}  
+
+/*pagina club*/
+
+.prueba {
+
+    height: 1000px;
+}
+
+.item1{
+    height: 400px;
+}
+
+.item2 {
+    display: flex;
+    
+}
+.item2 p{
+    width: 300px;
+    font-size: 12px;
+
+}
+.item2 h3{
+    padding-left: 0px;
+    font-size: 15px;
+
+}
+
+.item3 {
+    height: 150px;
+    width:150px;
+    margin-top: 40px;
+}
+
+/*PAGINA DE SERVICIOS*/
+
+.prueba2{
+    height: 400px;
+}
+.p2-1{
+    height: 400px;
+
+}
+.p2-2{
+    width: 300px;
+ 
+}
+.p2-2 h3{
+    margin-left: -60px;
+    font-size: 15px;
+
+}
+
+.p2-2 p{
+    font-size: 10px;
+    width: 200px;
+}
+
+.p2-3 h3{
+    margin-left: -70px;
+    width: 200px;
+    font-size: 7px;
+}
+
+/*aprende*/
+
+.prueba3{
+    height: 1600px;
+
+}
+ .prueba3 div {
+    height: 300px;
+    margin-bottom: 10px;
+ }
+
+ .it3-2 p{
+    width: 200px;
+    margin: 10px;
+    font-size: 10px;
+ }
+
+ .it3-3{
+    background-size: 40% 50%;
+    margin-left: -60px;
+ }
+.it3-4 {
+    margin-top: 110px;
+    margin-left: -80px;
+    background-size: 30% 50%;
+    
+}
+ .it3-5 h3{
+    font-size: 15px;
+    margin-left: -60px;
+    margin-top: 150px;
+    width: 200px;
+
+ }
+ .it3-5 p{
+    width: 160px;
+    font-size: 10px;
+    margin-left: -50px;
+    margin-top: -10px;
+    }
+
+ .it3-6 h3{
+    
+    font-size: 15px;
+    margin-left: 10px;
+ }
+ .it3-6 p{
+ 
+    width: 180px;
+    font-size: 10px;
+
+    }
+
+ .it3-7{
+    margin-left: -550px;
+    margin-top: 10px;
+    background-size: 10% 30%;
+ }
+.it3-8 {
+    background-size: 50% 50%;
+    margin-left: -50px;
+}
+
+ .it3-9 h3{
+ 
+    margin-left: -550px;
+    font-size: 15px;
+ }
+ .it3-9 p{
+    width: 180px;
+    font-size: 10px;
+    margin-left: -50px;
+    }
+
+    /*contacto*/
+
+.prueba4{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dv4-1 iframe{
+    width: 374px;
+}
+
+.dv4-2{
+    
+    grid-area: dv4-2;
+    height: 300px;
+    width: 80%;
+    align-content: center;
+    margin-left: 200px;
+}
+
+.dv4-2 h3{
+    font-size: 20px;
+    margin-left: -300px;
+    margin-top: 20px;
+}
+
+.dv4-2 p{
+
+    font-size: 15px;
+    margin-left: -300px;
+    margin-bottom: 30px;
+}
+
+.dv4-3{
+    grid-area: dv4-3;
+    height: 250px;
+    width:80%
+    
+}
+
+/*formulario*/
+
+.dv4-3 {
+    margin-left: 40px;
+}
+
+form {
+    padding: 20px 35px;
+    width: 300px;
+}
+
+.contacto h2{
+    font-size: 15px;
+}
+
+.contacto label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contacto input, textarea {
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #e6ffd6;
+    border: 2px blue solid;
+}
+
+.btn {
+    width: 100px;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: #1effb4;
+}
