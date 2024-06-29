@@ -589,176 +589,15 @@ form {
 }
 
 
+
 /*@media LAPTOP*/ 
 
-@media screen and (max-width:1024px){
+@media(max-width:1024px){
 
-/*pagina inicio*/
-    .contenido1 div{
-        width: 300px;
-        height: 200px;
-    }
-    
-    .contenido1 h3{
-        font-size: 25px;
-    }
-    
-    
-    .div1 img {
-        width: 280px;
-        height: 150px;
-        }
-    
-    .div1-2 img {
-        width: 280px;
-        height: 150px;
-    }
-
-    
-    .div1-3 img {
-        width: 280px;
-        height: 150px;
-    }
-    
-    .div1-4 img {
-        width: 280px;
-        height: 150px;
-        }
-}
-
-/*club*/
-
-
-.item1{
-    height: 270px;
-}
-
-.item2 p{
-    width: 550px;
-
-}
-.item2 h3{
-    padding-left: 250px;
-
-}
-
-
-.item3 {
-    height: 300px;
-    width: 90%;
-}
-
-/*PAGINA DE SERVICIOS*/
-
-.p2-2{
-    width: 700px;
-}
-.p2-2 h3{
-    margin-left: -120px;
-    font-size: 25px;
-}
-
-.p2-2 p{
-    font-size: 15px;
-    width: 500px;
-}
-
-.p2-3 h3{
-    width: 300px;
-    font-size: 16px;
-    margin-left: -100px;
-}
-
-/*aprende*/
-
-
-.prueba3{
-    height: 100%;
-}
-
-.prueba3{
-    height: 1600px;
-
-}
- .prueba3 div {
-    height: 300px;
-    margin-bottom: 10px;
- }
-
- .it3-2 p{
-    width: 400px;
-    margin: 10px;
-    font-size: 12px;
- }
-
- .it3-3{
-    width: 70%;
- }
-
- .it3-5 h3{
-    font-size: 20px;
-    margin-left: -200px;
- }
- .it3-5 p{
-    width: 400px;
-    font-size: 13px;
-    }
-
- .it3-6 h3{
-    
-    font-size: 20px;
-    margin-left: -100px;
- }
- .it3-6 p{
- 
-    width: 400px;
-    font-size: 13px;
-    }
-
- .it3-7{
-    margin-left: -200px;
-    background-size: 40% 70%;
- }
-
-
- .it3-9 h3{
- 
-    margin-left: -200px;
-    font-size: 20px;
- }
- .it3-9 p{
-    width: 400px;
-    font-size: 13px;
-    }
-
-/*@media TABLET*/ 
-
-@media screen and (max-width:768px){
-
-    .prueba3{
-        height: 100%;
-    }
-
-    header {
-        height: 170px;
-    }
-    
-    .section-header   {
-        justify-content: center;
-    }
-    
-    .section-header div h1{
-        font-size: 40px;
-    }
-    
-    .navbar  li a{
-        padding:5px;
-    }
     /*pagina inicio*/
-
         .contenido1 div{
-            width: 250px;
-            height: 150px;
+            width: 300px;
+            height: 200px;
         }
         
         .contenido1 h3{
@@ -767,442 +606,591 @@ form {
         
         
         .div1 img {
-            width: 230px;
-            height: 100px;
+            width: 280px;
+            height: 150px;
             }
         
         .div1-2 img {
-            width: 230px;
-            height: 100px;
+            width: 280px;
+            height: 150px;
         }
     
         
         .div1-3 img {
+            width: 280px;
+            height: 150px;
+        }
+        
+        .div1-4 img {
+            width: 280px;
+            height: 150px;
+            }
+    
+    /*club*/
+    
+    
+    .item1{
+        height: 270px;
+    }
+    
+    .item2 p{
+        width: 550px;
+    
+    }
+    .item2 h3{
+        padding-left: 250px;
+    
+    }
+    
+    
+    .item3 {
+        height: 300px;
+        width: 90%;
+    }
+    
+    /*PAGINA DE SERVICIOS*/
+    
+    .p2-2{
+        width: 700px;
+    }
+    .p2-2 h3{
+        margin-left: -120px;
+        font-size: 25px;
+    }
+    
+    .p2-2 p{
+        font-size: 15px;
+        width: 500px;
+    }
+    
+    .p2-3 h3{
+        width: 300px;
+        font-size: 16px;
+        margin-left: -100px;
+    }
+    
+    /*aprende*/
+    
+    
+    .prueba3{
+        height: 100%;
+    }
+    
+    .prueba3{
+        height: 1600px;
+    
+    }
+    .prueba3 div {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .it3-2 p{
+        width: 400px;
+        margin: 10px;
+        font-size: 12px;
+    }
+    
+    .it3-3{
+        width: 70%;
+    }
+    
+    .it3-5 h3{
+        font-size: 20px;
+        margin-left: -200px;
+    }
+    .it3-5 p{
+        width: 400px;
+        font-size: 13px;
+        }
+    
+    .it3-6 h3{
+        
+        font-size: 20px;
+        margin-left: -100px;
+    }
+    .it3-6 p{
+    
+        width: 400px;
+        font-size: 13px;
+        }
+    
+    .it3-7{
+        margin-left: -200px;
+        background-size: 40% 70%;
+    }
+    
+    
+    .it3-9 h3{
+    
+        margin-left: -200px;
+        font-size: 20px;
+    }
+    .it3-9 p{
+        width: 400px;
+        font-size: 13px;
+        }
+}
+    /*@media TABLET*/ 
+    
+    @media(max-width:768px){
+    
+        .prueba3{
+            height: 100%;
+        }
+    
+        header {
+            height: 170px;
+        }
+        
+        .section-header   {
+            justify-content: center;
+        }
+        
+        .section-header div h1{
+            font-size: 40px;
+        }
+        
+        .navbar  li a{
+            padding:5px;
+        }
+        /*pagina inicio*/
+    
+        .contenido1 div{
+            width: 250px;
+            height: 150px;
+        }
+            
+        .contenido1 h3{
+            font-size: 25px;
+        }
+            
+            
+        .div1 img {
+            width: 230px;
+            height: 100px;
+        }
+            
+        .div1-2 img {
             width: 230px;
             height: 100px;
         }
         
+            
+        .div1-3 img {
+            width: 230px;
+            height: 100px;
+        }
+            
         .div1-4 img {
             width: 230px;
             height: 100px;
-            }
-    }
-
-/* club*/
-
-.item2 p{
-    width: 400px;
-    font-size: 15px;
-
-}
-.item2 h3{
-    padding-left: 200px;
-    font-size: 25px;
-
-}
-
-
-.item3 {
-    height: 250px;
-    width: 90%;
-    margin-top: 40px;
-}
-
-
-/*PAGINA DE SERVICIOS*/
-
-
-.p2-2{
-    width: 700px;
- 
-}
-.p2-2 h3{
-    margin-left: -250px;
-    font-size: 25px;
-
-}
-
-.p2-2 p{
-    font-size: 15px;
-    width: 400px;
-}
-
-.p2-3 h3{
-    margin-left: -220px;
-    width: 300px;
-    font-size: 15px;
-}
-
-/*aprende*/
-
-.prueba3{
-    height: 1600px;
-
-}
- .prueba3 div {
-    height: 300px;
-    margin-bottom: 10px;
- }
-
- .it3-2 p{
-    width: 400px;
-    margin: 10px;
-    font-size: 12px;
- }
-
- .it3-3{
-    width: 40%;
- }
-
- .it3-5 h3{
-    font-size: 20px;
-    margin-left: -450px;
- }
- .it3-5 p{
-    width: 300px;
-    font-size: 13px;
-    margin-left: -50px;
-    }
-
- .it3-6 h3{
+        }
     
-    font-size: 20px;
-    margin-left: -100px;
- }
- .it3-6 p{
- 
-    width: 300px;
-    font-size: 13px;
-    }
-
- .it3-7{
-    margin-left: -450px;
-    background-size: 25% 40%;
- }
-
-
- .it3-9 h3{
- 
-    margin-left: -400px;
-    font-size: 20px;
- }
- .it3-9 p{
-    width: 300px;
-    font-size: 13px;
-    margin-left: -10px;
-    }
-
-/*@media MOBILE*/ 
-
-@media screen and (max-width:375px){
-
-    header {
-        padding: 0px;
-        height: 280px;  
-
-
-    }
+    /* club*/
     
-    .section-header   {
-        flex-direction: column;
-        align-items: center;
-        height: 280px;
-        
+    .item2 p{
+        width: 400px;
+        font-size: 15px;
     
     }
-    
-    .section-header div h1{
-        padding-top: 0px;
-        font-size: 30px;
-
-    }
-    
-    .navbar{
-
-        flex-direction: column;
-        gap: 15px;
-        margin-top: -90px;
-        align-items: center;
-        
-    }
-    .navbar  li a{
-        padding: 5px;     
-    }
-    
-    
-    /* footer*/
-    
-    .section-footer{
-        height: 100px;
-    }
-    
-    .divfooter1{
-        padding-top: 10px;
-        font-size: 10px;
-    }
-    
-    .divfooter2{
-        padding-top: 20px;
-        font-size: 10px;
-    }
-    
-    /*pagina inicio*/
-
-    
-    main {
-        height: 1000px;
-    
-    }
-    .contenido1{
-        padding-top: 300px;
-    }
-
-    .contenido1 div{
-        width: 150px;
-        height: 100px;
-    }
-        
-    .contenido1 h3{
+    .item2 h3{
+        padding-left: 200px;
         font-size: 25px;
-    }
-        
-        
-    .div1 img {
-        width: 130px;
-        height: 60px;
-    }
-        
-    .div1-2 img {
-        width: 130px;
-        height: 60px;
+    
     }
     
-        
-    .div1-3 img {
-        width: 130px;
-        height: 60px;
+    
+    .item3 {
+        height: 250px;
+        width: 90%;
+        margin-top: 40px;
     }
+    
+    
+    /*PAGINA DE SERVICIOS*/
+    
+    
+    .p2-2{
+        width: 700px;
+    
+    }
+    .p2-2 h3{
+        margin-left: -250px;
+        font-size: 25px;
+    
+    }
+    
+    .p2-2 p{
+        font-size: 15px;
+        width: 400px;
+    }
+    
+    .p2-3 h3{
+        margin-left: -220px;
+        width: 300px;
+        font-size: 15px;
+    }
+    
+    /*aprende*/
+    
+    .prueba3{
+        height: 1600px;
+    
+    }
+    .prueba3 div {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .it3-2 p{
+        width: 400px;
+        margin: 10px;
+        font-size: 12px;
+    }
+    
+    .it3-3{
+        width: 40%;
+    }
+    
+    .it3-5 h3{
+        font-size: 20px;
+        margin-left: -450px;
+    }
+    .it3-5 p{
+        width: 300px;
+        font-size: 13px;
+        margin-left: -50px;
+        }
+    
+    .it3-6 h3{
         
-    .div1-4 img {
+        font-size: 20px;
+        margin-left: -100px;
+    }
+    .it3-6 p{
+    
+        width: 300px;
+        font-size: 13px;
+        }
+    
+    .it3-7{
+        margin-left: -450px;
+        background-size: 25% 40%;
+    }
+    
+    
+    .it3-9 h3{
+    
+        margin-left: -400px;
+        font-size: 20px;
+    }
+    .it3-9 p{
+        width: 300px;
+        font-size: 13px;
+        margin-left: -10px;
+        }
+}
+    /*@media MOBILE*/ 
+    
+    @media(max-width:375px){
+    
+        header {
+            padding: 0px;
+            height: 280px;  
+    
+    
+        }
+        
+        .section-header   {
+            flex-direction: column;
+            align-items: center;
+            height: 280px;
+            
+        
+        }
+        
+        .section-header div h1{
+            padding-top: 0px;
+            font-size: 30px;
+    
+        }
+        
+        .navbar{
+    
+            flex-direction: column;
+            gap: 15px;
+            margin-top: -90px;
+            align-items: center;
+            
+        }
+        .navbar  li a{
+            padding: 5px;     
+        }
+        
+        
+        /* footer*/
+        
+        .section-footer{
+            height: 100px;
+        }
+        
+        .divfooter1{
+            padding-top: 10px;
+            font-size: 10px;
+        }
+        
+        .divfooter2{
+            padding-top: 20px;
+            font-size: 10px;
+        }
+        
+        /*pagina inicio*/
+    
+        
+        main {
+            height: 1000px;
+        
+        }
+        .contenido1{
+            padding-top: 300px;
+        }
+    
+        .contenido1 div{
+            width: 150px;
+            height: 100px;
+        }
+            
+        .contenido1 h3{
+            font-size: 25px;
+        }
+            
+            
+        .div1 img {
             width: 130px;
             height: 60px;
+        }
+            
+        .div1-2 img {
+            width: 130px;
+            height: 60px;
+        }
+        
+            
+        .div1-3 img {
+            width: 130px;
+            height: 60px;
+        }
+            
+        .div1-4 img {
+                width: 130px;
+                height: 60px;
+        }  
+    
+    /*pagina club*/
+    
+    .prueba {
+    
+        height: 1000px;
     }
-}  
-
-/*pagina club*/
-
-.prueba {
-
-    height: 1000px;
-}
-
-.item1{
-    height: 400px;
-}
-
-.item2 {
-    display: flex;
     
-}
-.item2 p{
-    width: 300px;
-    font-size: 12px;
-
-}
-.item2 h3{
-    padding-left: 0px;
-    font-size: 15px;
-
-}
-
-.item3 {
-    height: 150px;
-    width:150px;
-    margin-top: 40px;
-}
-
-/*PAGINA DE SERVICIOS*/
-
-.prueba2{
-    height: 400px;
-}
-.p2-1{
-    height: 400px;
-
-}
-.p2-2{
-    width: 300px;
- 
-}
-.p2-2 h3{
-    margin-left: -60px;
-    font-size: 15px;
-
-}
-
-.p2-2 p{
-    font-size: 10px;
-    width: 200px;
-}
-
-.p2-3 h3{
-    margin-left: -70px;
-    width: 200px;
-    font-size: 7px;
-}
-
-/*aprende*/
-
-.prueba3{
-    height: 1600px;
-
-}
- .prueba3 div {
-    height: 300px;
-    margin-bottom: 10px;
- }
-
- .it3-2 p{
-    width: 200px;
-    margin: 10px;
-    font-size: 10px;
- }
-
- .it3-3{
-    background-size: 40% 50%;
-    margin-left: -60px;
- }
-.it3-4 {
-    margin-top: 110px;
-    margin-left: -80px;
-    background-size: 30% 50%;
-    
-}
- .it3-5 h3{
-    font-size: 15px;
-    margin-left: -60px;
-    margin-top: 150px;
-    width: 200px;
-
- }
- .it3-5 p{
-    width: 160px;
-    font-size: 10px;
-    margin-left: -50px;
-    margin-top: -10px;
+    .item1{
+        height: 400px;
     }
-
- .it3-6 h3{
     
-    font-size: 15px;
-    margin-left: 10px;
- }
- .it3-6 p{
- 
-    width: 180px;
-    font-size: 10px;
-
+    .item2 {
+        display: flex;
+        
     }
-
- .it3-7{
-    margin-left: -550px;
-    margin-top: 10px;
-    background-size: 10% 30%;
- }
-.it3-8 {
-    background-size: 50% 50%;
-    margin-left: -50px;
-}
-
- .it3-9 h3{
- 
-    margin-left: -550px;
-    font-size: 15px;
- }
- .it3-9 p{
-    width: 180px;
-    font-size: 10px;
-    margin-left: -50px;
+    .item2 p{
+        width: 300px;
+        font-size: 12px;
+    
     }
-
-    /*contacto*/
-
-.prueba4{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    .item2 h3{
+        padding-left: 0px;
+        font-size: 15px;
     
-}
-
-.dv4-1 iframe{
-    width: 374px;
-}
-
-.dv4-2{
+    }
     
-    grid-area: dv4-2;
-    height: 300px;
-    width: 80%;
-    align-content: center;
-    margin-left: 200px;
-}
-
-.dv4-2 h3{
-    font-size: 20px;
-    margin-left: -300px;
-    margin-top: 20px;
-}
-
-.dv4-2 p{
-
-    font-size: 15px;
-    margin-left: -300px;
-    margin-bottom: 30px;
-}
-
-.dv4-3{
-    grid-area: dv4-3;
-    height: 250px;
-    width:80%
+    .item3 {
+        height: 150px;
+        width:150px;
+        margin-top: 40px;
+    }
     
-}
-
-/*formulario*/
-
-.dv4-3 {
-    margin-left: 40px;
-}
-
-form {
-    padding: 20px 35px;
-    width: 300px;
-}
-
-.contacto h2{
-    font-size: 15px;
-}
-
-.contacto label{
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.contacto input, textarea {
-    padding: 10px 15px;
-    border-radius: 25px;
-    margin-bottom: 10px;
-    background-color: #e6ffd6;
-    border: 2px blue solid;
-}
-
-.btn {
-    width: 100px;
-    cursor: pointer;
+    /*PAGINA DE SERVICIOS*/
     
-}
-
-.btn:hover{
-    background-color: #1effb4;
+    .prueba2{
+        height: 400px;
+    }
+    .p2-1{
+        height: 400px;
+    
+    }
+    .p2-2{
+        width: 300px;
+    }
+    .p2-2 h3{
+        margin-left: -60px;
+        font-size: 15px;
+    
+    }
+    
+    .p2-2 p{
+        font-size: 10px;
+        width: 200px;
+    }
+    
+    .p2-3 h3{
+        margin-left: -70px;
+        width: 200px;
+        font-size: 7px;
+    }
+    
+    /*aprende*/
+    
+    .prueba3{
+        height: 1600px;
+    
+    }
+    .prueba3 div {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .it3-2 p{
+        width: 200px;
+        margin: 10px;
+        font-size: 10px;
+    }
+    
+    .it3-3{
+        background-size: 40% 50%;
+        margin-left: -60px;
+    }
+    .it3-4 {
+        margin-top: 110px;
+        margin-left: -80px;
+        background-size: 30% 50%;
+        
+    }
+    .it3-5 h3{
+        font-size: 15px;
+        margin-left: -60px;
+        margin-top: 150px;
+        width: 200px;
+    
+    }
+    .it3-5 p{
+        width: 160px;
+        font-size: 10px;
+        margin-left: -50px;
+        margin-top: -10px;
+        }
+    
+    .it3-6 h3{
+        
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .it3-6 p{
+    
+        width: 180px;
+        font-size: 10px;
+    
+        }
+    
+    .it3-7{
+        margin-left: -550px;
+        margin-top: 10px;
+        background-size: 10% 30%;
+    }
+    .it3-8 {
+        background-size: 50% 50%;
+        margin-left: -50px;
+    }
+    
+    .it3-9 h3{
+    
+        margin-left: -550px;
+        font-size: 15px;
+    }
+    .it3-9 p{
+        width: 180px;
+        font-size: 10px;
+        margin-left: -50px;
+        }
+    
+        /*contacto*/
+    
+    .prueba4{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .dv4-1 iframe{
+        width: 374px;
+    }
+    
+    .dv4-2{
+        
+        grid-area: dv4-2;
+        height: 300px;
+        width: 80%;
+        align-content: center;
+        margin-left: 200px;
+    }
+    
+    .dv4-2 h3{
+        font-size: 20px;
+        margin-left: -300px;
+        margin-top: 20px;
+    }
+    
+    .dv4-2 p{
+    
+        font-size: 15px;
+        margin-left: -300px;
+        margin-bottom: 30px;
+    }
+    
+    .dv4-3{
+        grid-area: dv4-3;
+        height: 250px;
+        width:80%
+        
+    }
+    
+    /*formulario*/
+    
+    .dv4-3 {
+        margin-left: 40px;
+    }
+    
+    form {
+        padding: 20px 35px;
+        width: 300px;
+    }
+    
+    .contacto h2{
+        font-size: 15px;
+    }
+    
+    .contacto label{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .contacto input, textarea {
+        padding: 10px 15px;
+        border-radius: 25px;
+        margin-bottom: 10px;
+        background-color: #e6ffd6;
+        border: 2px blue solid;
+    }
 }
